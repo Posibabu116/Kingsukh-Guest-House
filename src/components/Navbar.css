@@ -1,0 +1,72 @@
+/* Navbar.css (or your custom stylesheet) */
+
+.whatsapp-link {
+
+  background-color: #ff66b3; 
+  color: rgb(251, 246, 246);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-link:hover {
+  background-color: pink;
+  color: blue;
+}
+
+.custom-navbar {
+  background-color: transparent;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+
+
+.navbar-brand {
+  color: rgb(246, 10, 155) !important; 
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+
+.navbar-nav a {
+  color: rgb(11, 11, 11) !important; 
+  margin: 2vh  5vh 0;
+}
+
+.navbar-nav a:last-child{
+  color: white !important; 
+  margin-top: 0;
+    
+}
+
+.navbar-toggler {
+  border-color: rgb(226, 66, 92);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(226, 66, 92)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    color: rgb(217, 89, 89) !important;
+    
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: rgb(250, 245, 245) !important;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar-logo,
+  .navbar-links
+   {
+    justify-content: flex-start;
+  }
+}
